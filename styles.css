@@ -1,0 +1,100 @@
+/* GRANDES PROJETOS E EMPRESAS
+ - COMO COMECAR DO JEITO CERTO
+    CSS - * tudo
+    CSS - folha de cascata
+    SELETOR - P, BUTTON, INPUT, DIV
+    PROPRIEDADES - MARGIN, PADDING, BACKGROUND-IMAGE, BORDER-RADIUS
+    VALORES - PIXEL, PERCENTUAL, CORES HEXADECIMAIS
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("img/mapa.jpg");
+    /* IMAGEM DO FUNDO */
+    background-size: cover;
+    /* TAMANHO DO FUNDO */
+    background-position: center;
+    /* POSIÇÃO NO CENTRO */
+    height: 100vh;
+    /* altura */
+    display: flex;
+    /* mostrar / flexivel */
+    align-items: center;
+
+    justify-content: center;
+}
+
+.caixa-maior {
+    background-color: #000000f2;
+    width: 450px; /* largura  */
+    border-radius: 25px; /* arredondar a borda */
+    padding: 20px; /* espacamento interno */
+}
+
+.input-texto {
+    width: 100%; /* largura */
+    height: 100px; /* altura */
+    border: none;  /* borda / none = nada,nenhuma */
+    outline: none; /* borda quando eu clico nele*/
+    background-color: #ffffff1a;
+    border-radius: 15px;
+    color: #ffffff;/* cor do texto*/
+    font-size: 16px; /* tamanho da fonte */
+    padding: 15px;
+}
+
+.idioma {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.10);
+    color: #f1eff5;
+}
+
+/* ESTILO DAS OPÇÕES - Utilizei porque quando abria o fleg não estava escuro, não vendo a palavra, alguns navegadores ocorre isso */
+.idioma option {
+    background-color: #18181b; /* fundo escuro */
+    color: #ffffff;            /* texto visível */
+}
+
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #ffffff1a;
+    border-radius: 50%; /* arredondar totalmente */
+    cursor: pointer; /* coloca a maosinha */
+}
+
+.controle {
+    display: flex; /* flexivel e já alinha um do lado do outro*/
+    align-items: center;
+    gap: 10px;  /* espacamento entre todos */
+    margin-top: 20px; /* margem em cima */
+    margin-bottom: 20px; /* margem embaixo */
+}
+
+.resultado {
+    padding: 15px;
+    background-color: #ffffff1a;
+    border-radius: 15px;
+}
+
+.titulo-traducao {
+    color: #ffffff99;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.traducao {
+    color: #ffffff;
+    font-size: 18px;
+}
