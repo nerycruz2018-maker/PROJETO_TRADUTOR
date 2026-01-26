@@ -1,4 +1,6 @@
 🌍 Projeto Tradutor
+
+
 📌 Sobre o projeto
 
 O Projeto Tradutor é uma aplicação web desenvolvida com o objetivo de traduzir textos entre diferentes idiomas de forma simples, rápida e intuitiva.
