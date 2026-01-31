@@ -1,88 +1,61 @@
-🌍 Projeto Tradutor
+# 🌐 Tradutor Web
 
+Projeto de **tradutor web** desenvolvido como parte da minha jornada de aprendizado em **desenvolvimento front-end**.
 
-📌 Sobre o projeto
+A aplicação permite realizar traduções tanto por **texto digitado** quanto por **entrada de voz**, sempre com foco em **usabilidade e experiência do usuário**.
 
-O Projeto Tradutor é uma aplicação web desenvolvida com o objetivo de traduzir textos entre diferentes idiomas de forma simples, rápida e intuitiva.
-O projeto foi criado como parte do meu processo de aprendizado em desenvolvimento web, aplicando conceitos de front-end e consumo de APIs.
+---
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-Tradução de textos entre diferentes idiomas
+- Tradução de texto digitado
+- Tradução por reconhecimento de voz
+- Síntese de voz para leitura do texto traduzido
+- Interface simples e intuitiva
+- Integração com APIs externas
 
-Interface simples e responsiva
+---
 
-Fácil utilização pelo usuário
+## 🛠️ Tecnologias Utilizadas
 
-Atualização dinâmica do conteúdo traduzido
+- HTML5  
+- CSS3  
+- JavaScript  
+- Consumo de APIs  
+- Manipulação do DOM  
+- Web Speech API (Speech Recognition e Speech Synthesis)
 
-🛠️ Tecnologias utilizadas
+---
 
-HTML5
+## 🌍 Demonstração
 
-CSS3
+🔗 Projeto em produção:  
+https://tradutor.alunodevclub.com.br
 
-JavaScript
+---
 
-API de Tradução (ex: Google Translate API / LibreTranslate / outra que você usou)
+## 🎯 Objetivo do Projeto
 
-🔧 O foco do projeto é praticar lógica de programação, manipulação do DOM e integração com APIs externas.
+O objetivo deste projeto foi **consolidar conceitos fundamentais do desenvolvimento web**, como:
 
-📂 Estrutura do projeto
-📁 tradutor
- ┣ 📄 index.html
- ┣ 📄 style.css
- ┣ 📄 script.js
- ┗ 📄 README.md
+- Estruturação de páginas com HTML
+- Estilização com CSS
+- Lógica e interatividade com JavaScript
+- Integração com APIs
+- Trabalhar com recursos nativos do navegador
+- Aplicar boas práticas de usabilidade
 
-🖥️ Demonstração
+---
 
-🔗 Acesse o projeto online:
-👉 https://tradutor.alunodevclub25.com
+## 📚 Aprendizado
 
-(ajuste o link se o subdomínio for outro)
+Este projeto faz parte da minha formação na **DevClub**, com o apoio da **mentoria do Rodolfo Mori**, e representa mais um passo no processo contínuo de aprendizado e evolução técnica.
 
-📸 Preview
+---
 
-(opcional, mas MUITO profissional)
-Você pode adicionar um print do projeto aqui depois.
+## 📌 Observações
 
-Exemplo:
+Projeto desenvolvido com fins educacionais, buscando sempre a melhoria contínua e a evolução das funcionalidades.
 
-![Preview do Projeto Tradutor](./preview.png)
+---
 
-📚 Aprendizados
-
-Com este projeto, foi possível praticar:
-
-Consumo de APIs com JavaScript
-
-Manipulação do DOM
-
-Eventos e interações com o usuário
-
-Organização de código front-end
-
-Estruturação de um projeto real para portfólio
-
-📈 Próximas melhorias
-
-Adicionar mais idiomas
-
-Implementar troca automática de idiomas
-
-Melhorar acessibilidade
-
-Histórico de traduções
-
-👤 Autor
-
-Nerivaldo Brito
-
-💼 Portfólio: https://alunodevclub25.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/nerivaldo-brito-financeiro/
-
-⭐ Considerações finais
-
-Este projeto faz parte do meu portfólio como estudante de programação, demonstrando minha evolução prática em desenvolvimento web e integração com serviços externos.
